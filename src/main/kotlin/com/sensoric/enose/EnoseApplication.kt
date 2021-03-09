@@ -1,4 +1,4 @@
-package com.sensori.enose
+package com.sensoric.enose
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
