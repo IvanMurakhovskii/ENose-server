@@ -3,4 +3,4 @@ package com.sensoric.enose.dto
 import com.sensoric.enose.enums.SensorEnum
 import java.time.LocalDate
 
-class ImportMeasurementDto(var name: String, time: LocalDate, measurement: Map<SensorEnum, List<Int>>)
+class ImportMeasurementDto(val name: String, val time: LocalDate, val measurement: Map<SensorEnum, List<Int>>)
